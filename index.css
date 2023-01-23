@@ -3,6 +3,12 @@ body {
     font-family:fantasy;
     color: white;
 }
+
+h1 {
+    margin-top: 2%;
+    font-size: 60px;
+}
+
 #a, #v, #h {
     font-size: 18px;
     width: 1000px;
@@ -59,12 +65,13 @@ video {
     margin-right: auto;
 }
 #dog img {
-    width: 600px;
+    width: 500px;
     height: auto;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
 }
 
 #about {
@@ -196,4 +203,158 @@ video {
     margin-left: 20%;
     position:absolute;
     top: 180%;
+}
+
+.doth {
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 85%;
+    position:absolute;
+    top: 28%;
+}
+
+.doth1 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 72%;
+    position:absolute;
+    top: 58%;
+
+}
+
+.doth1s {
+    height: 60px;
+    width: 60px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 89%;
+    position:absolute;
+    top: 60%;
+}
+
+.doth2 {
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    margin-left:13% ;
+    top: 70%;
+
+}
+
+.doth3 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    position:absolute;
+    top: 45%;
+}
+
+.doth3s {
+    height: 60px;
+    width: 60px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20%;
+    position:absolute;
+    top: 50%;
+}
+
+.dotl {
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 85%;
+    position:absolute;
+}
+
+.dotl1 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 85%;
+    position:absolute;
+    top: 350%;
+}
+
+.dotl1s {
+    height: 60px;
+    width: 60px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 76%;
+    position:absolute;
+    top: 300%;
+}
+
+.dotl2 {
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    margin-left:13% ;
+    top: 290%;
+}
+
+.dotl3 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    position:absolute;
+}
+
+.dotl3s {
+    height: 60px;
+    width: 60px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5%;
+    position:absolute;
+    top: 350%;
+}
+
+.dotl1s2 {
+    height: 60px;
+    width: 60px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 76%;
+    position:absolute;
+    top: 395%;
+}
+
+.dotl22 {
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    margin-left:13% ;
+    top: 385%;
 }
