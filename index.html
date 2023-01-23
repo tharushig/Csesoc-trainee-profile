@@ -2,17 +2,21 @@
 <html>
     <body>
         <div class="header">
-            <table>
-                <tr>
-                    <th>About</th>
-                    <th>Hobbies</th>
-                    <th>Dog</th>
-                </tr>
-            </table>
+            <link rel="stylesheet" href="index.css">
+            <div class="nav">
+                <a id="a" href="#about">About</a>
+                <a id="h" href="#hobbies">Hobbies & Interests</a>
+                <a id="v" href="#dog">Videos & Photos</a>
+                <a href="https://www.facebook.com/tharushi.gunawardana.127/"><img id="f" src="fb.png"></a>
+                <a href="https://www.linkedin.com/in/tharushi-gunawardana-b91390195/"><img id="l" src="linkedin.png"></a>
+                <a href="https://www.instagram.com/tharushi.gunawardana/"><img id="i" src="insta.png"></a>
+            </div>
+            <hr class="line1">
         </div>
         <div class="main">
-            <h1>Hello! I'm Tharushi</h1>
-            <div class="about">
+            <img id="profile" src="profile.jpg">
+            <h1>Hello! I'm Tharushi!</h1>
+            <div id="about">
                 <h3>About me</h3>
                 <li>3rd year software engineering student</li>
                 <li>Aspiring to be a full stack developer</li>
@@ -20,7 +24,7 @@
                 <li>Sri Lankan born in Australia</li>
                 <li>Went to St Ives High School</li>
             </div>
-            <div class="hobbies">
+            <div id="hobbies">
                 <h3>Hobbies and Interests</h3>
                 <li>LOVES dogs!!! Have a labrador called Harvey</li>
                 <li>Don't game a lot but I'm into pokemon and super smash bros :)</li>
@@ -29,9 +33,12 @@
                 <li>Favourite food: ramen</li>
                 <li>Favourite ice cream flavour: Chocolate Chip cookie dough</li>
             </div>
-            <div class="dog">
-                <h3>Videos and Photos</h3>
-                <p>Watch Harvey turn from a cute puppy to a cool dog &#128526;</p>
+            <hr class="line2">
+            <div id="dog">
+                <div class="video">
+                    <h3>Videos and Photos</h3>
+                    <p>Watch Harvey turn from a cute puppy to a cool dog &#128526;</p>
+                </div>
                 <video controls src="harvey.mp4"></video>
                 <img src="Harvey_cool.jpg">
                 <img src="Harvey.jpg">
